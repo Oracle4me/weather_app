@@ -24,8 +24,6 @@
 
 ## Video Demo
 
-Demo Weather App
-
 ![Demo Aplikasi](./assets/screenshots/demo.gif)
 
 ---
