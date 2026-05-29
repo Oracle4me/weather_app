@@ -6,12 +6,6 @@
 
 ---
 
-## Deskripsi
-
-**Persona 5 Weather App** adalah aplikasi cuaca yang menampilkan informasi cuaca terkini dengan antarmuka bertema Persona 5. Menggabungkan estetika merah-hitam khas Phantom Thieves dengan pengalaman pengguna yang responsif dan mudah digunakan.
-
----
-
 ## Tampilan Aplikasi
 
 ### City Bright
@@ -28,15 +22,11 @@
 
 ---
 
-## 🎥 Video Demo
+## Video Demo
 
-Tambahkan video demonstrasi aplikasi di bawah ini:
+Demo Weather App
 
-https://github.com/user-attachments/assets/VIDEO-DEMO
-
-Atau gunakan GIF untuk menampilkan preview aplikasi:
-
-![Demo Aplikasi](./assets/demo.gif)
+![Demo Aplikasi](./assets/screenshots/demo.gif)
 
 ---
 
