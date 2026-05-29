@@ -24,7 +24,7 @@
 
 ## Video Demo
 
-![Demo Aplikasi](./assets/screenshots/demo.gif)
+![Demo Aplikasi](./assets/demo.gif)
 
 ---
 
