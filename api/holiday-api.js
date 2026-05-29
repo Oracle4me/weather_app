@@ -1,4 +1,4 @@
-const CALENDARIFIC_API_KEY = '07jRdoA79hoTVAYaeoT2rqt3eXKg0IZY';
+const CALENDARIFIC_API_KEY = 'your_api_key'; // Calendarific.com
 
 let holidayCache = new Set();
 
