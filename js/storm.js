@@ -1,7 +1,4 @@
 
-// ===============================
-// STORM CONFIG
-// ===============================
 const STORM_CONFIG = {
     rain: {
         count: 500,
@@ -28,9 +25,6 @@ const STORM_CONFIG = {
     }
 };
 
-// ===============================
-// GLOBAL STATE
-// ===============================
 let rainCanvas;
 let rainCtx;
 let rainDrops = [];
@@ -40,9 +34,7 @@ let stormStarted = false;
 const RAIN_ANGLE =
     STORM_CONFIG.rain.angleDeg * Math.PI / 180;
 
-// ===============================
-// INIT
-// ===============================
+
 export function initStorm() {
     if (stormStarted) return;
 
@@ -60,9 +52,7 @@ export function initStorm() {
     window.addEventListener('resize', handleResize);
 }
 
-// ===============================
-// CANVAS SETUP
-// ===============================
+
 function createRainCanvas() {
     rainCanvas = document.createElement('canvas');
     rainCanvas.id = 'rainCanvas';
@@ -93,9 +83,7 @@ function handleResize() {
     generateRainDrops(STORM_CONFIG.rain.count);
 }
 
-// ===============================
-// RAIN GENERATION
-// ===============================
+
 function randomBetween(min, max) {
     return min + Math.random() * (max - min);
 }
@@ -136,9 +124,6 @@ function generateRainDrops(count) {
     }
 }
 
-// ===============================
-// RAIN ANIMATION
-// ===============================
 function animateRain() {
     rainCtx.clearRect(
         0,
@@ -190,9 +175,7 @@ function recycleRainDrop(drop) {
     }
 }
 
-// ===============================
-// LIGHTNING
-// ===============================
+
 function createLightningOverlay() {
     const flash = document.createElement('div');
     flash.id = 'lightningFlash';
